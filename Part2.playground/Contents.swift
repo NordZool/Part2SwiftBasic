@@ -1,27 +1,87 @@
 import UIKit
+import Foundation
 
 var greeting = "Hello, playground"
 
 
 
-var UnsignedPoliglot: UInt = 35
+var UnsignedPoliglot: UInt = 350_000
 
 
 
 var clownInt8 = Int8.min
 
-var clowns = Double(23.20)
-var poliglot: Int = -35
+let binaryInteger = 0b10001
+
+let anotherBinaryInt = 0b01110
+
+var resolt = binaryInteger | anotherBinaryInt
+
+let incomeAfterOperation: Double = 0.1
+
+var myWallet: Double = 0
 
 
-var all = clowns * Double(poliglot)
 
-var notAll = Int(clowns) * poliglot
+print("Пиздец")
+let longString = """
+    Это многострочный
+    строковый литерал
+    hjgjk
+    125
+    976
+    """
+
+let first = "Swift"
+let second = "Objective-C"
+let anyswift = "Swift"
+
+var newBool = first == second
+print(newBool)
+
+var boobi =  first == anyswift
+
+print(boobi)
 
 
-var str: String = "Give "
+let myCharOverUnicode: Character = "\u{041A}"
+print(myCharOverUnicode)
 
-var numb: Int = 5
+let any = true
 
-var GiveFive = str + String(numb)
-print(GiveFive)
+var i: Int = 0
+
+if any {
+    
+    while(true) {
+        
+        i = 1
+        break
+    }
+}
+
+print(i)
+
+
+let bobi: Int = 567
+
+var blyat: String = String(bobi)
+
+print(blyat)
+
+let valueHight: Int = 456
+
+valueHight.hashValue
+
+var newFloat: Float = 65.168835690
+
+let clown: UInt16 = UInt16.max
+
+
+var criptoMoney = Double("0.1000000013002")
+
+typealias UserInfo = (firstname: String, lastname: String)
+
+
+
+
